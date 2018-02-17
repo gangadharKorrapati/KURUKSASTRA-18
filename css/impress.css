@@ -115,12 +115,13 @@ h2{
 
 }
 .slides {
-    border: .25em solid #2b5797;
+    border: 20px solid #2b5797;
+    background-color: #8CC739;
     color: #395B91;
-    font-size: 2.5em;
+    font-size: 30px;
     font-weight: bold;
-    width: 12em;
-    height: 12em;
+    width: 512px;
+    height: 512px;
     text-align: center;
 }
 
