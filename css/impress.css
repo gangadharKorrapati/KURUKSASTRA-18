@@ -115,7 +115,7 @@ h2{
 
 }
 .slides {
-    border: 20px solid #2b5797;
+    border: 10px solid #2b5797;
     background-color: #8CC739;
     color: #395B91;
     font-size: 30px;
@@ -124,6 +124,7 @@ h2{
     height: 512px;
     text-align: center;
 }
-
+/*
 .slides:not(.active) { opacity: 0.85; }
 .slide:not(.active) { opacity: 0.5; }
+*/
