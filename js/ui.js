@@ -1,8 +1,5 @@
-impress().init();
 $(document).ready(function() { $('#preload').remove() });
-var api = impress();
-var intreval;
-api.init();
+impress().init();
 document.addEventListener("impress:stepenter", function(event) {
     $("#timeline_tracker").hide();
     $("#timeline_tracker span").removeClass("year-highlight");
