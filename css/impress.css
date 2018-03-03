@@ -12,3 +12,31 @@
 #site{
 	visibility: hidden;
 }
+#{
+	visibility: hidden;
+}
+.modals {
+    display: none;
+    height: 0%;
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    width: 0%;
+    z-index: 50;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.modals.open {
+	background-color: #fff;
+	height: 90%;
+    left: 5%;
+    position: fixed;
+    top: 5%;
+    width: 90%;
+    z-index: 50;
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.2);
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
