@@ -2,6 +2,8 @@ $(document).ready(function() {
 	setTimeout(remove, 5000);
 	$('#site').css("visibility", "visible");
     $(".button-collapse").sideNav();
+window.sr = ScrollReveal();
+sr.reveal('.col', { duration: 2000 }, 50);
 });
 function openmodel(modelid){
 	$(modelid).addClass("open");
@@ -13,12 +15,3 @@ function exitmodel(modelid){
 function remove(){
 	$('#preload').remove();
 }
-  $('.modal').modal({
-      ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-        
-      },
-      complete: function() { 
-
-      } // Callback for Modal close
-    }
-  );
