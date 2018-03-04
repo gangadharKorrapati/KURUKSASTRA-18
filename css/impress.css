@@ -40,3 +40,13 @@
     overflow-y: auto;
     overflow-x: hidden;
 }
+html {
+  background: radial-gradient(ellipse at center, #82b1ff 0%, #003182 100%);
+  overflow-x: hidden;
+}
+#bg > svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
